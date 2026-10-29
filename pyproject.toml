@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "record-audit-kit"
+version = "1.0.0"
+description = "A zero-dependency CSV quality checking CLI"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+record-audit = "record_audit.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["record_audit*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
