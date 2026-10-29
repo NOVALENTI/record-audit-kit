@@ -1,0 +1,5 @@
+record_id,email,created_at,status
+1001,alex@example.com,2026-09-01,active
+1002,blair@example.com,2026-09-02,active
+1002,not-an-email,2026-09-99,pending
+1003,,2026-09-03,active
