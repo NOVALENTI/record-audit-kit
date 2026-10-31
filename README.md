@@ -2,7 +2,7 @@
 
 A practical **Python data-quality CLI** for checking spreadsheets exported as CSV. Designed for operations, administrative, and data-entry workflows.
 
-**Created by Valentino Herrera.** Original portfolio demo built with synthetic records; no client, employer, or personally identifying source data is included.
+**Created by Valentino Herrera.**
 
 ## What it checks
 
